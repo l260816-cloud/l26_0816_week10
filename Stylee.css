@@ -1,0 +1,72 @@
+body {
+    margin: 2;
+    font-family: Arial, sans-serif;
+    background: snow; 
+    color: blue
+}
+
+#container {
+    width: 90%;
+    margin: 50px auto;
+    padding: 24px;
+    background: blues
+    border: 2px solid lightgrey;
+}
+
+#main {
+    display: flex;
+    gap: 24px;
+}
+
+#header {
+    text-align: center;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+    border-bottom: 2px solid lightgrey;
+}
+
+.subtitle {
+    color: cadetblue;
+    font-style: italic;
+}
+
+#sidebar {
+    width: 30%;
+    padding: 16px;
+    background: black;
+}
+
+#sidebar img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid blue;
+    margin-bottom: 16px;
+}
+
+#sidebar h2 {
+    padding-bottom: 8px;
+    color: mustard
+    border-bottom: 2px solid snow;
+}
+
+#sidebar ul {
+    padding-left: 20px;
+}
+
+#content {
+    flex: 1;
+    min-width: 0;
+}
+
+.post {
+    margin-bottom: 16px;
+    padding: 16px;
+    background: cream;
+    border: 1px solid blue;
+    display: flow-root;
+}
+
+.post h3 {
+    color: teal;
+}
